@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana;
+}
+h1.teta {
+  position: absolute;
+  color: #8b0000;
+  font-size: 80px;
+  margin: 23px 38px;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background: grey;
+}
+menu #menu-lista {
+  width: 100%;
+  text-align: right;
+}
+menu #menu-lista ul {
+  margin: 0;
+  padding: 0;
+}
+menu #menu-lista ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 20px 5px;
+  list-style: none;
+}
+menu #menu-lista ul li a {
+  color: #000;
+  text-decoration: none;
+}
+menu #menu-lista ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+div.box {
+  position: absolute;
+  top: 30px;
+  left: 500px;
+  transform: (-50%, 50%);
+}
+input.src {
+  padding: 9px 10px 9px 32px;
+  font-size: 17px;
+  border-radius: 15px;
+}
+
+header {
+  margin: 100px auto;
+  width: 1400px;
+  height: 250px;
+  background-color: red;
+}
+
+div.contenedor {
+  width: 200px;
+  height: 250px;
+  float: left;
+  -webkit-transition: height 0.5s;
+}
+
+div#uno {
+  background-color: rgb(208, 101, 3);
+}
+
+div#dos {
+  background-color: rgb(233, 147, 26);
+}
+
+div#tres {
+  background-color: rgb(22, 145, 190);
+}
+
+div#cuatro {
+  background-color: rgb(22, 187, 162);
+}
+
+div#cinco {
+  background-color: rgb(104, 179, 226);
+}
+
+div#seis {
+  background-color: rgb(94, 138, 69);
+}
+img.icon {
+  display: block;
+  margin: 50px auto;
+  background-color: rgba(248, 17, 17, 0.15);
+  width: 40px;
+  padding: 20px;
+  -webkit-border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+  -webkit-transition: box-shadow 0.9s;
+}
+p.texto {
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  opacity: 0.6;
+  -webkit-transition: padding-top 0.5s;
+}
+div.contenedor:hover {
+  height: 260px;
+}
+div.contenedor:hover p.texto {
+  padding-top: 20px;
+  opacity: 1;
+}
+div.contenedor:hover img.icon {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.6);
+}
